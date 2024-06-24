@@ -42,4 +42,9 @@ public class PaymentScreenTest {
         };
     }
 
+    @AfterTest
+    public void quitDriver(){
+        driver.quit();
+    }
+
 }
